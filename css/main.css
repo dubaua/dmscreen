@@ -1,0 +1,62 @@
+body {
+    font-family: 'Segoe UI';
+    font-size: 9px;
+    font-size: 14px;
+}
+
+.title {
+    font-size: 1.5em;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.easy {
+    color: #2dc50e;
+    font-weight: 500;
+}
+
+.moderate {
+    color: #3a92ff;
+    font-weight: 500;
+}
+
+.rare {
+    color: #a02ef7;
+    font-weight: 500;
+}
+
+.very-rare {
+    color: #ccaa1a;
+    font-weight: 500;
+}
+
+.legendary {
+  color: #ff6f50;
+  font-weight: 500;
+}
+
+table {
+    border-collapse: collapse;
+    margin-bottom: 1em;
+    width: 100%;
+}
+
+/* tr:nth-child(2n+1) {
+  background: #eee;
+} */
+
+td, th {
+    border: 1px solid #ccc;
+    padding: .5em .5em;
+    vertical-align: top;
+}
+
+td p, th p {
+    margin-top: 0;
+}
+
+th {
+    background: #eee;
+}
