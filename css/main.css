@@ -12,12 +12,12 @@ body {
     white-space: nowrap;
 }
 
-.easy {
+.common {
     color: #2dc50e;
     font-weight: 500;
 }
 
-.moderate {
+.uncommon {
     color: #3a92ff;
     font-weight: 500;
 }
