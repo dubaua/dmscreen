@@ -1,11 +1,70 @@
 body {
     font-family: 'Segoe UI';
     font-size: 9px;
-    font-size: 14px;
+    /* font-size: 14px; */
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    box-sizing: border-box;
+    padding-left: .5em;
+    padding-right: .5em;
+}
+
+.col-12 {
+    max-width: 100%;
+    flex-basis: 100%;
+}
+.col-11 {
+    max-width: 91.66%;
+    flex-basis: 91.66%;
+}
+.col-10 {
+    max-width: 83.33%;
+    flex-basis: 83.33%;
+}
+.col-9 {
+    max-width: 75%;
+    flex-basis: 75%;
+}
+.col-8 {
+    max-width: 66.66%;
+    flex-basis: 66.66%;
+}
+.col-7 {
+    max-width: 58.33%;
+    flex-basis: 58.33%;
+}
+.col-6 {
+    max-width: 50%;
+    flex-basis: 50%;
+}
+.col-5 {
+    max-width: 41.66%;
+    flex-basis: 41.66%;
+}
+.col-4 {
+    max-width: 33.33%;
+    flex-basis: 33.33%;
+}
+.col-3 {
+    max-width: 25%;
+    flex-basis: 25%;
+}
+.col-2 {
+    max-width: 16.66%;
+    flex-basis: 16.66%;
+}
+.col-1 {
+    max-width: 8.33%;
+    flex-basis: 8.33%;
 }
 
 .title {
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 .nowrap {
@@ -48,7 +107,7 @@ table {
 } */
 
 td, th {
-    border: 1px solid #ccc;
+    border: .5px solid #ccc;
     padding: .5em .5em;
     vertical-align: top;
 }
