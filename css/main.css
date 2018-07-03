@@ -1,7 +1,6 @@
 body {
-    font-family: 'Segoe UI';
-    font-size: 7px;
-
+    font-family: 'Segoe UI', 'PT Serif';
+    font-size: 9px;
     /* font-size: 14px; */
 }
 
@@ -120,11 +119,12 @@ table {
 }
 
 tr:nth-child(2n+1) {
-  background: #ddd;
+    background: #ddd;
 }
 
 td, th {
     border: 0;
+    line-height: 1.4;
     padding: .5em .5em;
     vertical-align: top;
 }
